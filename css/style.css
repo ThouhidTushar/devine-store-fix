@@ -52,13 +52,13 @@ body {
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
+  padding:10px;
   transition: .5s;
   border-radius: 50px;
   background-color: rgba(4, 28, 245, 0.048);
 }
 .single-product:hover {
-  box-shadow: 7px 7px 7px rgba(11, 26, 241, 0.582);
+  box-shadow: 7px 7px 7px #0d6efd;
   border-radius: 10px;
   border: 1px solid rgb(20, 19, 19);
 }
