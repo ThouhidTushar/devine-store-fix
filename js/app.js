@@ -1,6 +1,6 @@
 
 const loadProducts = () => {
-  const url = `https://fakestoreapi.com/products`;
+  const url = `https://raw.githubusercontent.com/ProgrammingHero1/ranga-store-api/main/ranga-api.json?fbclid=IwAR15P8R-3pWySMbWOplzYtp3X94kcVPXneLsQr97m_ZKHivBSeGVtFS1NWE`;
   // const url = `http://127.0.0.1:5500/db.json`;
   fetch(url)
     .then(res => res.json())
@@ -34,7 +34,7 @@ const showProducts = (products) => {
   }
 };
 
-// product count --------------
+// product count 
 
 let count = 0;
 const addToCart = (id, price) => {
