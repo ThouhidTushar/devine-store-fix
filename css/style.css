@@ -55,9 +55,10 @@ body {
   padding: 10px;
   transition: .5s;
   border-radius: 50px;
+  background-color: rgba(4, 28, 245, 0.048);
 }
 .single-product:hover {
-  box-shadow: 7px 7px 7px rgba(241, 11, 11, 0.637);
+  box-shadow: 7px 7px 7px rgba(11, 26, 241, 0.582);
   border-radius: 10px;
   border: 1px solid rgb(20, 19, 19);
 }
