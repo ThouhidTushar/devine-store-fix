@@ -1,7 +1,7 @@
 
 const loadProducts = () => {
-  // const url = `https://fakestoreapi.com/products`;
-  const url = `http://127.0.0.1:5500/db.json`;
+  const url = `https://fakestoreapi.com/products`;
+  // const url = `http://127.0.0.1:5500/db.json`;
   fetch(url)
     .then(res => res.json())
     .then(data => showProducts(data));
@@ -25,7 +25,8 @@ const showProducts = (products) => {
       <p>Rating: ${product.rating.rate}</p>
       <p>Total Rating: ${product.rating.count}</p>
       <h2>Price: $ ${product.price}</h2>
-      <button onclick="addToCart(${product.id},${product.price});updateTotal()" id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
+      <button onclick="addToCart(${product.id},${product.price});updateTotal()" 
+      id="addToCart-btn" class="buy-now btn btn-success">add to cart</button>
       <button id="details-btn" class="btn btn-danger">Details</button>
       </div>
       `;
