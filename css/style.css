@@ -11,7 +11,8 @@ body {
   margin: auto;
   align-items: center;
   justify-content: center;
-  padding-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .search-field {
   border: none;
@@ -53,6 +54,7 @@ body {
 .single-product {
   padding: 10px;
   transition: .5s;
+  border-radius: 50px;
 }
 .single-product:hover {
   box-shadow: 7px 7px 7px rgba(241, 11, 11, 0.637);
