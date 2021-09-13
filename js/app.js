@@ -1,7 +1,6 @@
 
 const loadProducts = () => {
   const url = `https://raw.githubusercontent.com/ProgrammingHero1/ranga-store-api/main/ranga-api.json?fbclid=IwAR15P8R-3pWySMbWOplzYtp3X94kcVPXneLsQr97m_ZKHivBSeGVtFS1NWE`;
-  // const url = `http://127.0.0.1:5500/db.json`;
   fetch(url)
     .then(res => res.json())
     .then(data => showProducts(data));
@@ -92,6 +91,3 @@ const updateTotal = () => {
   document.getElementById("total").innerText = grandTotal.toFixed(2);
   return grandTotal;
 };
-
-
-
